@@ -1,0 +1,571 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width: 100%;
+    background:url(7.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 1200px;
+    min-height: 400px;
+
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: 0 auto;
+    
+}
+
+.icon{
+    width:200px;
+    float: left;
+    height:70px;
+
+}
+
+.Logo{
+    color:maroon;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float:left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left:62px ;
+    margin-top: 28px;
+    font-size: 17px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(94, 2, 2);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width:200px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid maroon;
+    margin-top: 13px;
+    color:rgb(14, 9, 3);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-left: 30px;
+    
+}
+
+.btn{
+    width: 100px ;
+    height: 60px;
+    background: black;
+    color: maroon;
+    border: 2px solid black;
+    margin-top: 13px;
+    font-size:15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+.content{
+    width: 1200px;
+    height : auto;
+    margin: auto;
+    color: #ffff;
+    position: relative;
+
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing:1.2px;
+    line-height:30px;
+    color:black;
+    font-weight: 400;
+   margin-top: 20px;
+   padding-top: 20px;
+    font-size: 20px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.content .join{
+    width: 180px;
+    height: 40px;
+    background:rgb(7, 4, 4);
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .join a {
+    text-decoration:none;
+    color:beige;
+    transition: 0.4s ease-in-out;
+}
+
+.join:hover {
+    color: maroon;
+    font-size: 25px;
+    
+}
+
+.content span{
+    color:rgb(94, 53, 4);
+    font-size: 60px;
+
+}
+
+.form{
+    width: 300px;
+    height: 800px;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0.6)50%);
+    margin-right: 30px;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.form h2{
+    width: 200px;
+    height: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:white;
+    font-size: 29px;
+    background-color: inherit;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 15px;
+}
+
+.form input{
+    width:250px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size :16px;
+    letter-spacing:1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline:none;
+}
+
+::placeholder{
+    color:#ffff;
+    font-family: arial;
+
+}
+
+.btnn{
+    width: 240px;
+    height:40px;
+    background:rgb(94, 5, 5);
+    border: none;
+    color:maroon;
+    cursor:pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    transition: 0.4s ease-in-out;
+
+}
+
+.btnn:hover{
+    background:white;
+    color: black;
+}
+
+ .btnn a{
+     text-decoration: none;
+     color: rgb(15, 4, 4);
+     font-weight: bold;
+ }
+
+ .form .link{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+ .form .link a{
+     text-decoration: none;
+     color:rgb(94, 2, 2);
+     font-size: 20px;
+    
+ }
+
+ .new{
+     padding-top: 15px;
+     padding-bottom:10px ;
+     text-align: center;
+    
+ }
+
+ .icon{
+     text-decoration: none;
+     color:white;
+
+ }
+
+ .icon ion-icon{
+     color:white;
+     font-size:30px;
+     padding-top: 10px;
+     padding-left: 15px;
+     transition: 0.4s ease-in-out;
+
+ }.icon ion-icon:hover{
+     color:rgb(94, 5, 5);
+ }
+
+@media screen and (max-width:1200px){
+    
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+
+    ul{
+       margin-left: 30px; 
+    }
+
+    ul li{
+        margin-left: 60px;
+    }
+    
+    ul li a{
+        font-size: 1.6vw;
+    }
+
+    .search{
+        margin-top: 3px;
+        margin: left 290px; 
+    }
+ 
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+
+    .btn{
+        height: 40px;
+        width: 80px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .content h1, .contentspan{
+        font-size: 4.5vw;
+    }
+
+    .content .par {
+        width: 90%;
+        font-size: 1.5vw;
+    }
+
+    .content .join{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+
+    .content a {
+         font-size: 1.6vw;
+    }
+
+}
+
+@media screen and (max-width:1170px){
+    .main{
+        height:180vh;
+        padding-left:20px ;
+    }
+
+     
+.form{
+    margin-left: -30px;
+    width: 300px;
+    height: 800px;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0.6)50%);
+    position: absolute;
+    top: 420px;
+    left: 50px;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.form input{
+    width:250px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size :16px;
+    letter-spacing:1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.btnn a{
+    font-size: 16px;
+}
+
+.form .link a{
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width:830px) {
+    
+    .content{
+       width: 80%;
+       margin-left: 40px;
+        margin-top: 120px;
+    }
+
+    .content h1, .content span{
+        font-size: 6vw;
+    }
+
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+ 
+    .content .join{
+      width: 15%;
+      height: 4.5vw;
+      font-size: 2vw;  
+    }
+
+    .content a{
+        font-size: 2vw;
+    }
+
+    .Logo{
+        margin-left: 240px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+
+    .menu{
+        width: 100%;
+
+    }
+
+    ul{
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+    ul li{
+        margin-left: 60px;
+
+    }
+
+    ul li a{
+        font-size: 2vw;
+    }
+
+    .search{
+        margin-top: -20px;
+        margin-left: 60px
+    }
+
+    .srch{
+        height: 30px;
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .btn{
+        height: 30px;
+        width: 70px;
+    }
+
+    .main{
+        height:180vh;
+        padding-left:20px ;
+    }
+
+     
+   .form{
+    margin-left: -30px;
+    width: 300px;
+    height: 800px;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0.6)50%);
+    position: absolute;
+    top: 420px;
+    left: 50px;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+
+  .form input{
+    width:250px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size :16px;
+    letter-spacing:1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+  }
+
+  .btnn a{
+    font-size: 16px;
+  }
+
+ .form .link a{
+    font-size: 16px;
+
+  }
+
+}
+@media screen and (max-width:600px) {
+    .content{
+        margin-top:80px ;
+        margin-left: 20px;
+    }
+
+    .search{
+        margin-top:-40px ;
+        margin-left: 42px;
+    }
+
+    .Logo{
+        margin-left: 180px;
+        font-size: 4vw;
+    }
+
+    ul{
+        margin-top:-25px ;
+        margin-left: -5px;
+    }
+
+    ul li{
+        margin-left: 50px;
+
+    }
+
+    ul li a {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:450px){
+    .Logo{
+        margin-left: 140px;
+        font-size: 4vw;
+    }
+
+    ul{
+        margin-top: -25px;
+    }
+
+    ul li{
+        margin-left: 42px;
+    }
+
+    ul li a{
+        font-size: 2vw;
+    }
+
+    .search{
+        margin-top: -40px;
+        margin-left: 38px;
+    }
+}
